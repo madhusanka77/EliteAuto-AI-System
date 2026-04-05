@@ -1,0 +1,23 @@
+# ---- Frontend (React) ----
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+
+# ---- Backend (Spring Boot) ----
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/backend.zip
+
+# ---- AI Service (Python) ----
+AI-SERVICE/__pycache__/
+AI-SERVICE/venv/
+AI-SERVICE/.venv/
+AI-SERVICE/node_modules/
+
+# ---- OS Files ----
+.DS_Store
+
+# Ignore large Machine Learning models
+*.pkl
